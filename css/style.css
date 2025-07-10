@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html,
+body {
+  height: 100%;
+} */
+body {
+  font-family: "Press Start 2P", cursive;
+  background: #77a123;
+  min-height: 100vh;
+}
+h1 {
+  text-align: center;
+  color: maroon;
+  padding: 2rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  box-shadow: 2px 5px 8px #590a10;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-weight: 400;
+  font-size: medium;
+  background: #d9c58b;
+  border: none;
+}
+button:hover {
+  transform: translateY(-2px);
+}
